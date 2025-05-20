@@ -39,12 +39,14 @@
 		</f:Form>
 <OverflowToolbar>
     <ToolbarSpacer/>
-    <Button
-        type="Accept"
-        text="Save"/> 
-    <Button
-        type="Reject"
-        text="Clear"/> 
+<Button
+    type="Accept"
+    text="Save"
+    press=".onSavePress" /> 
+<Button
+    type="Reject"
+    text="Clear"
+    press=".onClearPress" /> 
 </OverflowToolbar>
 
 	<items/>
