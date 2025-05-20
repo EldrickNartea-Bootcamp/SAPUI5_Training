@@ -1,0 +1,52 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:l="sap.ui.layout" xmlns:f="sap.ui.layout.form" xmlns:core="sap.ui.core" controllerName="com.acn.training.project1.controller.View1">
+ 	<VBox class="sapUiSmallMargin">
+		<f:Form id="FormDisplay354" editable="false">
+			<f:layout>
+				<f:ResponsiveGridLayout labelSpanXL="3" labelSpanL="3" labelSpanM="3" labelSpanS="12" adjustLabelSpan="false" emptySpanXL="4" emptySpanL="4" emptySpanM="4" emptySpanS="0" columnsXL="1" columnsL="1" columnsM="1" singleContainerFullSize="false"/>
+			</f:layout>
+			<f:formContainers>
+				<f:FormContainer>
+					<f:formElements>
+						<f:FormElement label="Name">
+							<f:fields>
+								<Input/>
+							</f:fields>
+						</f:FormElement>
+						<f:FormElement label="Street No">
+							<f:fields>
+								<Input/>
+							</f:fields>
+						</f:FormElement>
+						<f:FormElement label="Zip Code / City">
+							<f:fields>
+								<Input/>
+								<Input/>
+							</f:fields>
+						</f:FormElement>
+						<f:FormElement label="Country">
+							<f:fields>
+			<Select>
+				<core:Item key="ENG" text="England"/>
+				<core:Item key="GR" text="Germany"/>
+				<core:Item key="US" text="USA"/>
+				<core:Item key="PH" text="Philippines"/>
+			</Select>
+							</f:fields>
+						</f:FormElement>		
+					</f:formElements>
+				</f:FormContainer>
+			</f:formContainers>
+		</f:Form>
+<OverflowToolbar>
+    <ToolbarSpacer/>
+    <Button
+        type="Accept"
+        text="Save"/> 
+    <Button
+        type="Reject"
+        text="Clear"/> 
+</OverflowToolbar>
+
+	<items/>
+	</VBox>
+</mvc:View>
