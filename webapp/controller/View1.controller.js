@@ -15,6 +15,7 @@ sap.ui.define([
         onClearPress: function () {
             this.getView().byId("iptName").setValue("");
             this.getView().byId("iptStreet").setValue("");
+            this.getView().byId("iptStreet1").setValue("");
             this.getView().byId("iptZip").setValue("");
             this.getView().byId("iptCity").setValue("");
             this.getView().byId("slctCntry").setValue("England");

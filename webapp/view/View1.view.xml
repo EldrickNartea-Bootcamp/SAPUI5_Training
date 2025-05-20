@@ -15,6 +15,7 @@
 						<f:FormElement label="Street No">
 							<f:fields>
 								<Input id="iptStreet"/>
+								<Input id="iptStreet1"/>
 							</f:fields>
 						</f:FormElement>
 						<f:FormElement label="Zip Code/City">
