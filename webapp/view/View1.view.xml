@@ -17,7 +17,7 @@
 								<Input/>
 							</f:fields>
 						</f:FormElement>
-						<f:FormElement label="Zip Code / City">
+						<f:FormElement label="Zip Code/City">
 							<f:fields>
 								<Input/>
 								<Input/>
