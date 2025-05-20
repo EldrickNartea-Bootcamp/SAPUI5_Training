@@ -9,23 +9,23 @@
 					<f:formElements>
 						<f:FormElement label="Name">
 							<f:fields>
-								<Input/>
+								<Input id="iptName"/>
 							</f:fields>
 						</f:FormElement>
 						<f:FormElement label="Street No">
 							<f:fields>
-								<Input/>
+								<Input id="iptStreet"/>
 							</f:fields>
 						</f:FormElement>
 						<f:FormElement label="Zip Code/City">
 							<f:fields>
-								<Input/>
-								<Input/>
+								<Input id="iptZip"/>
+								<Input id="iptCity"/>
 							</f:fields>
 						</f:FormElement>
 						<f:FormElement label="Country">
 							<f:fields>
-			<Select>
+			<Select id="slctCntry">
 				<core:Item key="ENG" text="England"/>
 				<core:Item key="GR" text="Germany"/>
 				<core:Item key="US" text="USA"/>

@@ -13,11 +13,11 @@ sap.ui.define([
         },
 
         onClearPress: function () {
-            const view = this.getView();
-            const inputs = view.findAggregatedObjects(true, (control) => control.isA("sap.m.Input"));
-            inputs.forEach((input) => input.setValue(""));
-            const selects = view.findAggregatedObjects(true, (control) => control.isA("sap.m.Select"));
-            selects.forEach((select) => select.setSelectedKey(null));
+            this.getView().byId("iptName").setValue("");
+            this.getView().byId("iptStreet").setValue("");
+            this.getView().byId("iptZip").setValue("");
+            this.getView().byId("iptCity").setValue("");
+            this.getView().byId("slctCntry").setValue("England");
             
         }
     });
