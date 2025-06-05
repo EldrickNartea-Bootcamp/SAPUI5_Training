@@ -18,7 +18,7 @@ sap.ui.define([
             this.getView().byId("iptStreet1").setValue("");
             this.getView().byId("iptZip").setValue("");
             this.getView().byId("iptCity").setValue("");
-            this.getView().byId("slctCntry").setValue("England");
+            this.getView().byId("slctCntry").setValue("");
             
         }
     });
